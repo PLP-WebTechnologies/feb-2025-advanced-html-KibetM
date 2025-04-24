@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        th, td{
+            border: 1px solid#333;
+            padding: 8px;
+            text-align: left;
+        }
+        th{
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h3>Programming languages</h3>
+    <ol type="I">
+        <li>Python</li>
+        <li>Java</li>
+        <li>Javascript</li>
+    </ol>
+
+    <img src="https://images.pexels.com/photos/31659583/pexels-photo-31659583/free-photo-of-scenic-mountain-swing-overlooking-snowy-peaks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+     alt="A photo of anastacia looking over a mountain"
+     width=600>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Adress</th>
+                <th>Mobile</th>
+                <th>Email</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>Oak steet, NY</td>
+                <td>555-123-4567</td>
+                <td>Alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>honolulu, hawaai</td>
+                <td>444-123-4578</td>
+                <td>bob@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>luxemberg</td>
+                <td>100-123-3456</td>
+                <td>Ceecee@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Donald</td>
+                <td>Soele, korea</td>
+                <td>200-234-5678</td>
+                <td>Donald@outlook.com</td>
+            </tr>
+        
+    </tbody>
+    </table>
+    <h3>Registration form</h3>
+    <form action="#" method="post">
+        <label for="fullname">Full name:</label><br>
+        <input type="text" name="fullname" id="fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" id="email" required><br><br>
+
+        <label for="mobile">Phone no:</label><br>
+        <input type="tel" name="mobile" id="mobile" required><br><br>
+
+        <label for="address"> Address:</label><br>
+        <textarea name="address" id="address" rows="3" cols="30" required></textarea><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" placeholder="Enter your pasowrd " minlength="8" required><br><br>
+
+        <label for="dob">Date of birth:</label><br>
+        <input type="date" name="dob" id="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label><br>
+
+        <input type="radio" name="gender" id="other" value="other" required>
+        <label for="other">Other</label><br>
+
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+            <option value="">--Select your country--</option>
+            <option value="usa">USA</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+        </select><br><br>
+
+        <label>Interests</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">coding</label><br>
+        <input type="checkbox" name="interests" id="music" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" name="interests" id="sports" value="sports">
+        <label for="sports">Sports</label><br><br>
+
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
